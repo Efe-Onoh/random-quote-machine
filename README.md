@@ -1,2 +1,2 @@
 # random-quote-machine
-A random quote generator 
+A random quote generator by Efe-Onoh
