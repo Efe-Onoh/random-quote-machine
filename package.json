@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Efe-Onoh/random-quote-machine/issues"
   },
-  "homepage": "https://github.com/Efe-Onoh/random-quote-machine#readme"
+  "homepage": "https://github.com/Efe-Onoh/random-quote-machine#readme",
+  "devDependencies": {
+    "sass": "^1.43.2"
+  }
 }
