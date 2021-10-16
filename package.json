@@ -18,5 +18,13 @@
   "homepage": "https://github.com/Efe-Onoh/random-quote-machine#readme",
   "devDependencies": {
     "sass": "^1.43.2"
+  },
+  "nodemonConfig": {
+    "ignore": ["test/*", "docs/*"],
+    "ext": "js,json,sass",
+    "events":{
+      "start":"sass sass/style.sass css/style.css",
+      "restart": "sass sass/style.sass css/style.css"
+    }
   }
 }
