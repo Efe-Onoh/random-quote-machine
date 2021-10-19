@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+body {
+  background: #99ccff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#quote-box {
+  font-family: "Poppins", sans-serif;
+  color: white;
+  background-color: blue;
+  width: fit-content;
+  max-width: 100%;
+  padding: 50px;
+}
+
+button {
+  padding: 5px;
+  font-size: 25px;
+  margin: 10px 0;
+}
+
+#comp {
+  background: green;
+  display: flex;
+  justify-content: center;
+  max-width: 50%;
+}
+
+/*# sourceMappingURL=app.css.map */

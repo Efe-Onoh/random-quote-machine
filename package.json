@@ -4,7 +4,9 @@
   "description": "a random quote machine by Efe-Onoh",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": " babel script.js -o app.js && sass styles/app.sass styles/app.css ",
+    "sass": ""
   },
   "repository": {
     "type": "git",
@@ -17,14 +19,18 @@
   },
   "homepage": "https://github.com/Efe-Onoh/random-quote-machine#readme",
   "devDependencies": {
+    "@babel/cli": "^7.15.7",
+    "@babel/core": "^7.15.8",
+    "@babel/preset-env": "^7.15.8",
+    "@babel/preset-react": "^7.14.5",
     "sass": "^1.43.2"
   },
   "nodemonConfig": {
-    "ignore": ["test/*", "docs/*"],
+    "ignore": [
+      "test/*",
+      "docs/*"
+    ],
     "ext": "js,json,sass",
-    "events":{
-      "start":"sass sass/style.sass css/style.css",
-      "restart": "sass sass/style.sass css/style.css"
-    }
+    "events": {}
   }
 }
