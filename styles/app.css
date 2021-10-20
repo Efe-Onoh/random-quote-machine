@@ -1,10 +1,10 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap");
 body {
   background: #99ccff;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 96vh;
 }
 
 #quote-box {

@@ -216,10 +216,10 @@ function hsb(hue, sat, bri, alp = 1){
    render() {
      return (
        <div id="quote-box">
-         <h3 id="text">{this.props.quoteObj.quote}</h3>
-         <h4 id="author">{this.props.quoteObj.author}</h4>
+         <h1 id="text">{this.props.quoteObj.quote}</h1>
+         <h2 id="author">{this.props.quoteObj.author}</h2>
          <button id="new-quote" onClick={this.newQuote}>new quote</button>
-         <a  id="tweet-quote" href={"https://twitter.com/intent/tweet?hashtags=quotes&related=freecodecamp&text="+this.props.quoteObj.quote+"-"+this.props.quoteObj.author} target="_top"><h4>tweet quote</h4></a>
+         <a  id="tweet-quote" href={"https://twitter.com/intent/tweet?hashtags=quotes&related=freecodecamp&text="+this.props.quoteObj.quote+"-"+this.props.quoteObj.author} target="_top"><h2>tweet quote</h2></a>
        </div>
      );
    }

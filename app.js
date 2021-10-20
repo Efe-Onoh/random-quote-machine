@@ -228,9 +228,9 @@ var QuoteComponent = /*#__PURE__*/function (_React$Component) {
     value: function render() {
       return /*#__PURE__*/React.createElement("div", {
         id: "quote-box"
-      }, /*#__PURE__*/React.createElement("h3", {
+      }, /*#__PURE__*/React.createElement("h1", {
         id: "text"
-      }, this.props.quoteObj.quote), /*#__PURE__*/React.createElement("h4", {
+      }, this.props.quoteObj.quote), /*#__PURE__*/React.createElement("h2", {
         id: "author"
       }, this.props.quoteObj.author), /*#__PURE__*/React.createElement("button", {
         id: "new-quote",
@@ -239,7 +239,7 @@ var QuoteComponent = /*#__PURE__*/function (_React$Component) {
         id: "tweet-quote",
         href: "https://twitter.com/intent/tweet?hashtags=quotes&related=freecodecamp&text=" + this.props.quoteObj.quote + "-" + this.props.quoteObj.author,
         target: "_top"
-      }, /*#__PURE__*/React.createElement("h4", null, "tweet quote")));
+      }, /*#__PURE__*/React.createElement("h2", null, "tweet quote")));
     }
   }]);
 
