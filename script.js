@@ -260,3 +260,4 @@ function hsb(hue, sat, bri, alp = 1){
  ReactDOM.render(<AppWrapper/>,document.querySelector('#comp'));
  
  //react is working perfectly. next, move state to redux and connect both reactredux.
+ //test
